@@ -119,7 +119,7 @@ extension ViewController : GCDAsyncSocketDelegate {
     
     func socket(_ sock: GCDAsyncSocket, didRead data: Data, withTag tag: Int) {
         if let str = String.init(data: data, encoding: .utf8) {
-            print("did Read socket \(str)")
+//            print("did Read socket \(str)")
         }
     }
     
