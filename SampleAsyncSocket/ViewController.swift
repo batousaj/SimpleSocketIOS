@@ -104,7 +104,7 @@ extension ViewController : GCDAsyncSocketDelegate {
     }
     
     func socket(_ sock: GCDAsyncSocket, didConnectToHost host: String, port: UInt16) {
-        print("Connected socket")
+        print("Connected")
         
         let hello = "Hello I'm Thien"
         if self.isProxy {
