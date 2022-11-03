@@ -131,7 +131,7 @@ extension ViewController : GCDAsyncSocketDelegate {
         if let err = err {
             print("Disconnected socket with error : \(err.localizedDescription)")
         } else {
-            print("Disconnected socket")
+//            print("Disconnected socket")
         }
     }
     
