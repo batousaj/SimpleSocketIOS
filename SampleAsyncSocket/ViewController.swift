@@ -129,7 +129,7 @@ extension ViewController : GCDAsyncSocketDelegate {
     
     func socketDidDisconnect(_ sock: GCDAsyncSocket, withError err: Error?) {
         if let err = err {
-            print("Disconnected socket with error : \(err.localizedDescription)")
+//            print("Disconnected socket with error : \(err.localizedDescription)")
         } else {
 //            print("Disconnected socket")
         }
