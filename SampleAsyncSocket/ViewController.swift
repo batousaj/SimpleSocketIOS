@@ -124,7 +124,7 @@ extension ViewController : GCDAsyncSocketDelegate {
     }
     
     func socket(_ sock: GCDAsyncSocket, didWriteDataWithTag tag: Int) {
-        print("did Write Data socket")
+//        print("did Write Data socket")
     }
     
     func socketDidDisconnect(_ sock: GCDAsyncSocket, withError err: Error?) {
