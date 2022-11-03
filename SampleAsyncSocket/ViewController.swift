@@ -108,8 +108,8 @@ extension ViewController : GCDAsyncSocketDelegate {
         
         let hello = "Hello I'm Huyen"
         if self.isProxy{
-            self.proxySocket.write(hello.data(using: .utf8), withTimeout: 5, tag: 0)
-            self.proxySocket.readData(withTimeout: 1, tag: 0)
+//            self.proxySocket.write(hello.data(using: .utf8), withTimeout: 5, tag: 0)
+//            self.proxySocket.readData(withTimeout: 1, tag: 0)
         } else {
             self.socket.write(hello.data(using: .utf8), withTimeout: 5, tag: 0)
             self.socket.readData(withTimeout: 1, tag: 0)
