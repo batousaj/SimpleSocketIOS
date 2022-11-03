@@ -100,7 +100,7 @@ extension ViewController {
 extension ViewController : GCDAsyncSocketDelegate {
     
     func socket(_ sock: GCDAsyncSocket, didAcceptNewSocket newSocket: GCDAsyncSocket) {
-        print("Accepted socket")
+        print("Accepted")
     }
     
     func socket(_ sock: GCDAsyncSocket, didConnectToHost host: String, port: UInt16) {
